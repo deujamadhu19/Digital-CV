@@ -519,4 +519,32 @@ h4 {
     background-color: #f5f0eb;
     border-top: 1px solid #e5ddd6;
 }
-
+.footer-social{
+    display: flex;
+    justify-content:center;
+    gap:48px;
+}
+.social-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+    color: #7a6f67;
+}
+.social-links:hover{
+    color:#c0451e;
+    transform: translateY(-2px);
+    /* slight lift up on hover*/
+}
+.social-icon{
+    font-size: 1.2rem;
+}
+.social-text{
+    font-size: 0.65rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
